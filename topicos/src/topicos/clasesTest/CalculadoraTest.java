@@ -25,7 +25,7 @@ public class CalculadoraTest {
 		assertEquals("7 - 6",1,c.resta(7, 6),.001);
 	}
 	
-	@Test
+	@Test()
 	public void testMultiplica() {
 		assertEquals("7 * 6",42,c.multiplica(7, 6),.001);
 	}
